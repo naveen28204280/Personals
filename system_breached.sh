@@ -14,12 +14,12 @@ sleep 1
 ls ~/
 sleep 1
 echo "Uploading files to external server..."
-sleep 2
+sleep 1
 for i in {10..1}; do echo "Self-destruct in $i..."; sleep 1; done
-echo "💀 SYSTEM OVERRIDE INITIATED 💀"
-sleep 2
-clear
+echo "SYSTEM OVERRIDE Initiating"
+sleep 1
 echo "BOOT ERROR: SYSTEM CORRUPTED"
-' >> ~/.lessgo.sh
+' >>~/.lessgo.sh
 history -c
 clear
+
